@@ -238,14 +238,14 @@
 
     <Button
         android:id="@+id/btCalcular"
-        android:layout_width="0dp"
-        android:layout_height="47dp"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
         android:backgroundTint="#0092B6"
         android:text="Calcular"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <androidx.constraintlayout.widget.Guideline

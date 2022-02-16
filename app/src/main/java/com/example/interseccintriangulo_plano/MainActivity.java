@@ -165,6 +165,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
+        Context context = getApplicationContext();
+        CharSequence text = "App desarrollada por David Rodríguez";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
+
         etV1x = findViewById(R.id.etV1x);
         etV1y = findViewById(R.id.etV1y);
         etV1z = findViewById(R.id.etV1z);
